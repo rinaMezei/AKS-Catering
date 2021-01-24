@@ -1,0 +1,66 @@
+/*background*/
+
+body{
+    background-color:#f8eaf1;
+}
+
+
+/*logo*/
+
+.logo{
+    width: 25%;
+    margin: 1px auto;
+}
+
+
+/*table with pictures*/
+
+table{
+    width: 40%;
+    margin: 1px auto;
+}
+
+
+/*link to other pages*/
+
+.link{
+    position: absolute;
+    font-family: Arial, sans-serif;
+    color: #f8eaf1;
+    font-size: 30px;
+    margin: 10px;
+    background-color: rgb(166,166,166);
+    border-radius: 3px;
+    padding: 3px;
+}
+
+
+a:link{
+    font-family: Arial, sans-serif;
+    color: #f8eaf1;
+    text-align: right;
+    font-size: 30px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+a:visited{
+    font-family: Arial, sans-serif;
+    color: #f8eaf1;
+    font-size: 30px;
+    text-align: right;
+    margin: 10px;
+}
+
+
+/*header*/
+
+.title{
+    font-family: Arial, sans-serif;
+    color: rgb(166,166,166);
+    font-size: 45px;
+    width: 75%;
+    margin: 1px auto;
+    text-align: center;
+}

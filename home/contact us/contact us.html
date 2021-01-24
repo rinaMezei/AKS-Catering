@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title>Contact Us</title>
+        <link href="contact_us.css"
+	    type="text/css"
+	    rel="stylesheet">
+	</head>
+	<body>
+	<!--logo-->
+	  <h1 class="logo">
+	  	<img src="../images/AKS.jpg"
+		 alt="Logo"
+		 title="Logo"/>
+	  </h1>
+	  <a href="../home.html" class="link">Home</a>
+	  <p class="title">Contact Us</p>
+	<!--table with contact information-->
+	   <table>
+		  <tr>
+			  <td class="one">Address:</td>
+			  <td class="one">Phone Number:</td>
+			  <td class="one">Email:</td>
+		  </tr>
+		  <tr>
+			  <td class="two">2949 Bathurst St, North York, ON</td>
+			  <td class="two">917-222-2323</td>
+			  <td class="two">akscatering@gmail.com</td>
+		  </tr>
+	   </table>
+	<!--form to order online-->
+	  <form action="http://eg.com/email.php" method="post">
+		  <fieldset>
+			  <legend class="order">Order Online:</legend>
+		  <table>
+			  <tr>
+				  <td class="heading">Name:</td>
+				  <td><input type="text" name="Name"/></td>
+			  </tr>
+			  <tr>
+				  <td class="heading">Email:</td>
+				  <td><input type="email" name="email"></td>
+			  </tr>
+			  <tr>
+				  <td><label for="payment">Payment Type:</label></td>
+			  	<td><select name="payment" id="payment">
+				  <option value="credit card">Credit Card</option>
+				  <option value="debit card">Debit Card</option>
+			  </select></td>
+			  </tr>
+			  <tr>
+				  <td><label>Credit Card Number:</label></td>
+				  <td><input type="text" name="credit card number" maxlength="16" required="required"/></td>
+			  </tr>
+			  <tr>
+				  <td><label>Expiration Date:</label></td>
+				  <td><input type="date" name="expiration date"></td>
+			  </tr>
+			  <tr>
+				  <td><label>Security Code:</label></td>
+				  <td><input type="text" name="security code" maxlength="3"></td>
+			  </tr>
+			  <tr>
+				  <td><label>Billing Address:</label></td>
+				  <td><input type="text" name="address"></td>
+			  </tr>
+			  <tr>
+				  <td class="heading">Item/s Description:</td>
+				  <td><input type="text" name="item"/></td>
+			  </tr>
+			  <tr>
+				  <td class="heading">Total Price:</td>
+				  <td><input type="text" name="price"/></td>
+			  </tr>
+		  </table>
+			  <input type="submit" value="Submit Order" id="submit" />
+		  </fieldset>
+	  </form>
+	</body>
+</html>

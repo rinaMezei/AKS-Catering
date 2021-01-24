@@ -1,0 +1,78 @@
+/*background*/
+body{
+    background-color:#f8eaf1;
+}
+
+
+/*logo*/
+
+.logo{
+    width: 25%;
+    margin: 1px auto;
+}
+
+
+/*header_navigation bar*/
+
+table {
+    width: 75%;
+    margin: 1px auto;
+    text-align: center;
+}
+
+
+td,th{
+    font-family: "Arial Black", sans-serif;
+    font-weight:bold;
+    color: #f8eaf1;
+    font-size: 30px;
+}
+
+
+a.navigate:link {
+    font-family: Arial, sans-serif;
+    color: rgb(166, 166, 166);
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+a.navigate:visited {
+    font-family: Arial, sans-serif;
+    color: rgb(166, 166, 166);
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*about AKS*/
+
+#about{
+    font-family: Impact, sans-serif;
+    color: rgb(0,0,0);
+    font-size: 25px;
+    width: 41%;
+    border: 3px solid rgb(240,203,11);
+    margin: 1px auto;
+    padding: 40px;
+    float: left;
+    text-align: center;
+    height: 50%;
+}
+
+
+/*image*/
+
+.waffle{
+    width:45%;
+    margin:1px auto;
+    float: right;
+    border: 3px solid rgb(240,203,11);
+    padding: 40px;
+    height: 50%
+}
+
